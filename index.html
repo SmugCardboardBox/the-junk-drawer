@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Junk Drawer — random tools, mods, experiments, and other questionable things I made." />
+  <title>The Junk Drawer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="The Junk Drawer home">
+      <span class="brand-mark">JD</span>
+      <span class="brand-text">THE JUNK DRAWER</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO THE DRAWER</p>
+        <h1>Random tools, mods, experiments, and other <span>questionable things</span> I made.</h1>
+        <p class="hero-text">
+          A home for small projects that probably didn't need to exist,
+          but now they do.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Open the drawer</a>
+          <a class="button ghost" href="#about">What is this?</a>
+        </div>
+      </div>
+
+      <div class="drawer-art" aria-hidden="true">
+        <div class="cabinet">
+          <div class="drawer">
+            <div class="handle"></div>
+            <span>TOOLS</span>
+          </div>
+          <div class="drawer">
+            <div class="handle"></div>
+            <span>MODS</span>
+          </div>
+          <div class="drawer open">
+            <div class="handle"></div>
+            <span>???</span>
+            <div class="junk junk-a"></div>
+            <div class="junk junk-b"></div>
+            <div class="junk junk-c"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURRENTLY RATTLING AROUND</p>
+          <h2>Projects</h2>
+        </div>
+        <span class="project-count">1 ITEM</span>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="card-top">
+            <span class="status live"><i></i> Active</span>
+            <span class="version">v0.2</span>
+          </div>
+          <div class="project-icon image-icon"><img src="assets/eldara/eldara-trainer-icon.png" alt="" /></div>
+          <h3>Eldara Trainer</h3>
+          <p>
+            A custom trainer and quality-of-life tool built for Eldara,
+            with a proper interface instead of looking like it escaped from 2007.
+          </p>
+          <div class="tags">
+            <span>JavaScript</span>
+            <span>Electron</span>
+            <span>Game Tool</span>
+          </div>
+          <div class="card-actions">
+            <a class="button small primary" href="projects/eldara-trainer.html">Project page</a>
+            <a class="button small ghost" href="downloads/EldaraTrainer-v0.2.exe" download>Download</a>
+          </div>
+        </article>
+
+        <article class="project-card empty-card">
+          <div class="empty-plus">+</div>
+          <h3>Something stupid goes here</h3>
+          <p>The drawer has room. It always has room.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-panel">
+        <p class="eyebrow">ABOUT THIS PLACE</p>
+        <h2>Built because apparently I needed another hobby.</h2>
+        <p>
+          The Junk Drawer is a personal dumping ground for software, game tools,
+          translation experiments, mods, and whatever else I decide to make.
+          No grand mission statement. No startup energy. Just stuff.
+        </p>
+      </div>
+
+      <div class="mini-terminal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <b>junk-drawer.exe</b>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">&gt;</span> opening drawer...</p>
+          <p><span class="prompt">&gt;</span> useful items found: <strong>1</strong></p>
+          <p><span class="prompt">&gt;</span> unidentified cables: <strong>47</strong></p>
+          <p><span class="prompt">&gt;</span> organization status: <strong>questionable</strong></p>
+          <p class="cursor-line"><span class="prompt">&gt;</span> <span class="cursor"></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> The Junk Drawer</span>
+    <span>Made with bad ideas and working code.</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    That drawer isn't ready yet.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
