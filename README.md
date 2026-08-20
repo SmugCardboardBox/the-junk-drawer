@@ -1,39 +1,15 @@
 # The Junk Drawer
 
-> Random tools, mods, experiments, and other questionable things I made.
+The Junk Drawer is my personal home for random tools, mods, experiments, and other questionable things I make.
 
-A personal dumping ground for software, game tools, experiments,
-and whatever else somehow becomes a project.
+## Featured Project
 
-No grand mission statement.  
-No startup energy.  
-Just stuff.
+### Eldara Trainer v0.2
 
-## Currently in the Drawer
+Eldara Trainer v0.2 is the currently featured project: a Windows trainer and quality-of-life tool for Eldara.
 
-### ⚙️ Eldara Trainer
+## The Site
 
-A custom trainer and quality-of-life tool for **Eldara**, featuring
-an organized in-game interface, progression controls, save/recovery
-tools, and other conveniences.
+The site uses plain HTML, CSS, and JavaScript and is hosted on Cloudflare Pages.
 
-**Current version:** v0.2  
-**Platform:** Windows  
-**Status:** Active
-
-## The Website
-
-The Junk Drawer itself is intentionally simple:
-
-- Plain HTML
-- CSS
-- JavaScript
-- No framework
-- No build system
-- No nonsense
-
-Hosted with Cloudflare Pages.
-
----
-
-**Made with bad ideas and working code.**
+Made with bad ideas and working code.
